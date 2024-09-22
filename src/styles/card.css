@@ -1,0 +1,109 @@
+.places__item {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 407px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.places__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px 0 0 0;
+}
+
+.card__image {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    height: 237px;
+    padding-top: 15px;
+    padding-bottom: 54px;
+    align-self: center;
+    object-fit: contain;
+}
+
+.card__title {
+    font-size: 17px;
+    margin: 0;
+}
+
+.card__button {
+    border: none;
+    background: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.card__button:hover {
+    color: #FFA542;
+}
+
+.card__button:active {
+    color: #FFA542;
+    transform: scale(1.1);
+}
+
+.content-title__goods {
+    font-size: 20px;
+    color: #838383;
+    font-weight: 600;
+}
+
+.content-title__goods:first-of-type {
+    margin-top: 43px;
+}
+
+.content-title__goods:nth-child(n+2) {
+    margin-top: 28px;
+}
+
+.card__description {
+    margin-bottom: 24px;
+}
+
+.card__description,
+.card__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 18px 0 22px;
+}
+
+.card__rate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card__rate-number {
+    padding-left: 10px;
+    font-size: 17px;
+    color: #838383;
+    font-weight: bold;
+}
+
+.card__rate-image {
+    width: 23px;
+    height: 21px;
+}
+
+.card__price {
+    color: #FFA542;
+    font-weight: bold;
+}
+
+.content {
+    margin-left: 27px;
+}
+
+.wirelessHeadphones .card__description {
+    margin-top: 5px;
+}
